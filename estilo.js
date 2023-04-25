@@ -62,7 +62,7 @@ const optonerNombre = () => {
 }
 
 nombre.addEventListener("change", (event) => {
-    if (optonerNombre() != "Watch All") {
+    if (optonerNombre() != "Ver todos") {
         veruno(optonerNombre())
     } else {
         buscarDato()
