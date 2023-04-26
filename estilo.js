@@ -57,13 +57,13 @@ const veruno = async (name) => {
 
 const nombre = document.getElementById("Personajes")
 
-const optonerNombre = () => {
+const obtenerNombre = () => {
     return nombre.value;
 }
 
 nombre.addEventListener("change", (event) => {
-    if (optonerNombre() != "Ver todos") {
-        veruno(optonerNombre())
+    if (obtenerNombre() != "Ver todos") {
+        veruno(obtenerNombre())
     } else {
         buscarDato()
     }
